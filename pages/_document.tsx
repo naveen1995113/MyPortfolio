@@ -10,6 +10,7 @@ export default function Document() {
           name="description"
           content="Author: C.H. Naveen Kumar,My portfolio"
         />
+        <link rel="icon" href="/assets/nicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
