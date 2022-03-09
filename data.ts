@@ -25,7 +25,7 @@ export const services: IService[] = [
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "A daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -35,9 +35,8 @@ export const services: IService[] = [
   },
   {
     Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+    title: "Operating System",
+    about: "Flexible to work on either windows or mac operating systems",
   },
 ];
 
