@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { fadeInUp, stagger, routerAnimation } from "../animations";
 
 const Index = () => {
+  const presentYear = new Date().getFullYear();
+  const careerStatedYear = 2018;
   return (
     <motion.div
       className="flex flex-col px-6 pt-1"
@@ -15,13 +17,13 @@ const Index = () => {
       exit="exit"
     >
       <h5 className="my-3 font-medium">
-        Passionate developer having 4+ years of experience in web application
-        development, Graduated from GITAM Hyderabad in Computer Science and
-        Engineering Stream. I would like to highlight myself as Hardworking,
-        Ambitious, and a Good Team leader who is always willing to take new
-        learning and challenges. I have good knowledge of programming and
-        software development and looking for opportunities in
-        Front-End/Full-Stack development.
+        Passionate developer having {presentYear - careerStatedYear} years of
+        experience in web application development, Graduated from GITAM
+        Hyderabad in Computer Science and Engineering Stream. I would like to
+        highlight myself as Hardworking, Ambitious, and a Good Team leader who
+        is always willing to take new learning and challenges. I have good
+        knowledge of programming and software development and looking for
+        opportunities in Front-End/Full-Stack development.
       </h5>
       <div
         className="p-4 mt-5 bg-gray-400 dark:bg-dark700"
@@ -52,25 +54,3 @@ const Index = () => {
   );
 };
 export default Index;
-
-// export const getServerSideProps = async (context: GetServerSideProps) => {
-//   const response = await fetch("http://localhost:3000/api/services");
-//   const data = await response.json();
-//   console.log("Server are:", data.services);
-//   return {
-//     props: {
-//       services: data.services,
-//     },
-//   };
-// };
-
-// export const getStaticProps = async (context: GetStaticProps) => {
-//   const response = await fetch("http://localhost:3000/api/services");
-//   const data = await response.json();
-//   console.log("Server are ", data.services);
-//   return {
-//     props: {
-//       services: data.services,
-//     },
-//   };
-// };
