@@ -12,18 +12,16 @@ const NavItem: React.FC<INavProps> = ({
   setActiveItem,
 }) => {
   return (
-    activeItem !== name && (
-      <Link href={route}>
-        <a>
-          <div
-            onClick={() => setActiveItem(name)}
-            className="hover:text-cblue dark:hover:text-clight"
-          >
-            {name}
-          </div>
-        </a>
-      </Link>
-    )
+    <Link href={route}>
+      <a>
+        <div
+          onClick={() => setActiveItem(name)}
+          className="text-xl font-bold hover:border-b-4 hover:text-cblue dark:hover:text-clight"
+        >
+          {name}
+        </div>
+      </a>
+    </Link>
   );
 };
 export default NavItem;

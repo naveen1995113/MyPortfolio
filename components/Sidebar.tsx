@@ -34,20 +34,20 @@ const Sidebar = () => {
         layout="intrinsic"
         quality="100"
       />
-      <h3 className="my-4 text-3xl font-semibold tracking-wider font-parisienne">
+      <h3 className="my-4 text-3xl font-semibold tracking-wider font-Merriweather">
         <span className="text-cblue dark:text-clight">Naveen</span> Kumar
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark200">
         Web Developer
       </p>
-      <a
+      {/* <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark200"
         href="/assets/resume.pdf"
         download="Resume.pdf"
       >
         <AiOutlineDownload className="w-6 h-6" />
         Download resume
-      </a>
+      </a> */}
       <div className="flex justify-around w-full mx-auto my-5 text-cblue dark:text-clight">
         <a href="https://www.linkedin.com/in/naveen-kumar-chintakindi-53154311a/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
