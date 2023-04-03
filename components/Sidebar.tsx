@@ -49,7 +49,7 @@ const Sidebar = () => {
         Download resume
       </a> */}
       <div className="flex justify-around w-full mx-auto my-5 text-cblue dark:text-clight">
-        <a href="https://www.linkedin.com/in/naveen-kumar-chintakindi-53154311a/">
+        <a href="https://www.linkedin.com/in/naveen-chintakindi/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/naveen1995113">
